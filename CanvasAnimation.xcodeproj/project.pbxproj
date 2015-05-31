@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB98EB21B16AF8B000F3868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB98EB11B16AF8B000F3868 /* AppDelegate.swift */; };
+		1DB98EB41B16AF8B000F3868 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB98EB31B16AF8B000F3868 /* CanvasViewController.swift */; };
+		1DB98EB71B16AF8B000F3868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB98EB51B16AF8B000F3868 /* Main.storyboard */; };
+		1DB98EB91B16AF8B000F3868 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB98EB81B16AF8B000F3868 /* Images.xcassets */; };
+		1DB98EBC1B16AF8B000F3868 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB98EBA1B16AF8B000F3868 /* LaunchScreen.xib */; };
+		1DB98EC81B16AF8B000F3868 /* CanvasAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB98EC71B16AF8B000F3868 /* CanvasAnimationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB98EC21B16AF8B000F3868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB98EA41B16AF8A000F3868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB98EAB1B16AF8B000F3868;
+			remoteInfo = CanvasAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB98EAC1B16AF8B000F3868 /* CanvasAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CanvasAnimation.app; path = "/Users/baris/GitPriv/CanvasAnimation/build/Debug-iphoneos/CanvasAnimation.app"; sourceTree = "<absolute>"; };
+		1DB98EB01B16AF8B000F3868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB98EB11B16AF8B000F3868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DB98EB31B16AF8B000F3868 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		1DB98EB61B16AF8B000F3868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DB98EB81B16AF8B000F3868 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DB98EBB1B16AF8B000F3868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1DB98EC11B16AF8B000F3868 /* CanvasAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CanvasAnimationTests.xctest; path = "/Users/baris/GitPriv/CanvasAnimation/build/Debug-iphoneos/CanvasAnimationTests.xctest"; sourceTree = "<absolute>"; };
+		1DB98EC61B16AF8B000F3868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB98EC71B16AF8B000F3868 /* CanvasAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasAnimationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB98EA91B16AF8B000F3868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB98EBE1B16AF8B000F3868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB98EA31B16AF8A000F3868 = {
+			isa = PBXGroup;
+			children = (
+				1DB98EAE1B16AF8B000F3868 /* CanvasAnimation */,
+				1DB98EC41B16AF8B000F3868 /* CanvasAnimationTests */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB98EAE1B16AF8B000F3868 /* CanvasAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1DB98EB11B16AF8B000F3868 /* AppDelegate.swift */,
+				1DB98EB31B16AF8B000F3868 /* CanvasViewController.swift */,
+				1DB98EB51B16AF8B000F3868 /* Main.storyboard */,
+				1DB98EB81B16AF8B000F3868 /* Images.xcassets */,
+				1DB98EBA1B16AF8B000F3868 /* LaunchScreen.xib */,
+				1DB98EAF1B16AF8B000F3868 /* Supporting Files */,
+			);
+			path = CanvasAnimation;
+			sourceTree = "<group>";
+		};
+		1DB98EAF1B16AF8B000F3868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB98EB01B16AF8B000F3868 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DB98EC41B16AF8B000F3868 /* CanvasAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB98EC71B16AF8B000F3868 /* CanvasAnimationTests.swift */,
+				1DB98EC51B16AF8B000F3868 /* Supporting Files */,
+			);
+			path = CanvasAnimationTests;
+			sourceTree = "<group>";
+		};
+		1DB98EC51B16AF8B000F3868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB98EC61B16AF8B000F3868 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB98EAB1B16AF8B000F3868 /* CanvasAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB98ECB1B16AF8B000F3868 /* Build configuration list for PBXNativeTarget "CanvasAnimation" */;
+			buildPhases = (
+				1DB98EA81B16AF8B000F3868 /* Sources */,
+				1DB98EA91B16AF8B000F3868 /* Frameworks */,
+				1DB98EAA1B16AF8B000F3868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanvasAnimation;
+			productName = CanvasAnimation;
+			productReference = 1DB98EAC1B16AF8B000F3868 /* CanvasAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DB98EC01B16AF8B000F3868 /* CanvasAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB98ECE1B16AF8B000F3868 /* Build configuration list for PBXNativeTarget "CanvasAnimationTests" */;
+			buildPhases = (
+				1DB98EBD1B16AF8B000F3868 /* Sources */,
+				1DB98EBE1B16AF8B000F3868 /* Frameworks */,
+				1DB98EBF1B16AF8B000F3868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB98EC31B16AF8B000F3868 /* PBXTargetDependency */,
+			);
+			name = CanvasAnimationTests;
+			productName = CanvasAnimationTests;
+			productReference = 1DB98EC11B16AF8B000F3868 /* CanvasAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB98EA41B16AF8A000F3868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = mike;
+				TargetAttributes = {
+					1DB98EAB1B16AF8B000F3868 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1DB98EC01B16AF8B000F3868 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1DB98EAB1B16AF8B000F3868;
+					};
+				};
+			};
+			buildConfigurationList = 1DB98EA71B16AF8A000F3868 /* Build configuration list for PBXProject "CanvasAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB98EA31B16AF8A000F3868;
+			productRefGroup = 1DB98EA31B16AF8A000F3868;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB98EAB1B16AF8B000F3868 /* CanvasAnimation */,
+				1DB98EC01B16AF8B000F3868 /* CanvasAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB98EAA1B16AF8B000F3868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB98EB71B16AF8B000F3868 /* Main.storyboard in Resources */,
+				1DB98EBC1B16AF8B000F3868 /* LaunchScreen.xib in Resources */,
+				1DB98EB91B16AF8B000F3868 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB98EBF1B16AF8B000F3868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB98EA81B16AF8B000F3868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB98EB41B16AF8B000F3868 /* CanvasViewController.swift in Sources */,
+				1DB98EB21B16AF8B000F3868 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB98EBD1B16AF8B000F3868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB98EC81B16AF8B000F3868 /* CanvasAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB98EC31B16AF8B000F3868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB98EAB1B16AF8B000F3868 /* CanvasAnimation */;
+			targetProxy = 1DB98EC21B16AF8B000F3868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DB98EB51B16AF8B000F3868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB98EB61B16AF8B000F3868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DB98EBA1B16AF8B000F3868 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB98EBB1B16AF8B000F3868 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB98EC91B16AF8B000F3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DB98ECA1B16AF8B000F3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB98ECC1B16AF8B000F3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanvasAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CanvasAnimation;
+			};
+			name = Debug;
+		};
+		1DB98ECD1B16AF8B000F3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanvasAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CanvasAnimation;
+			};
+			name = Release;
+		};
+		1DB98ECF1B16AF8B000F3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CanvasAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CanvasAnimationTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvasAnimation.app/CanvasAnimation";
+			};
+			name = Debug;
+		};
+		1DB98ED01B16AF8B000F3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CanvasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CanvasAnimationTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvasAnimation.app/CanvasAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB98EA71B16AF8A000F3868 /* Build configuration list for PBXProject "CanvasAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB98EC91B16AF8B000F3868 /* Debug */,
+				1DB98ECA1B16AF8B000F3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB98ECB1B16AF8B000F3868 /* Build configuration list for PBXNativeTarget "CanvasAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB98ECC1B16AF8B000F3868 /* Debug */,
+				1DB98ECD1B16AF8B000F3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB98ECE1B16AF8B000F3868 /* Build configuration list for PBXNativeTarget "CanvasAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB98ECF1B16AF8B000F3868 /* Debug */,
+				1DB98ED01B16AF8B000F3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB98EA41B16AF8A000F3868 /* Project object */;
+}
